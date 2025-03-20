@@ -1,0 +1,217 @@
+{
+    "easycom": {
+    	"^z-(.*)": "@zebra-ui/swiper/components/z-$1/z-$1.vue"
+    },
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#2593E6",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	, {
+		"path": "pages/news-detail/news-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "资讯详情"
+		}
+	}
+	,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/zixishi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/zixishi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/zixishi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/zixishiyuyue/list",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/zixishiyuyue/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/zixishiyuyue/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/jieshuxuexi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/jieshuxuexi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/jieshuxuexi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/yijianfankui/list",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yijianfankui/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yijianfankui/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	, {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#1F82CD",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "基于微信小程序的自习室预约系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#FF0000",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+
+			,{
+				"pagePath": "pages/zixishi/list",
+				"iconPath": "/static/tabs/icon1.png",
+				"selectedIconPath": "/static/tabs/icon1_act.png",
+				"text": "自习室"
+			}
+
+			,{
+			 	"pagePath": "pages/news/list",
+				"iconPath": "static/tabs/news.png",
+			 	"selectedIconPath": "static/tabs/news_act.png",
+				"text": "公告资讯"
+			}
+
+
+
+
+
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
